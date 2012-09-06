@@ -18,7 +18,7 @@ scheme should be available through `:colorscheme kekkonen`.
 
 ## License ##
 
-Copyright (c) 2012, Matti Hänninen
+Copyright (c) 2012, Matti Hänninen.
 All rights reserved.
 
 Permission to use this software is granted under the terms of [The Perl
