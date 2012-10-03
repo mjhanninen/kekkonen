@@ -31,7 +31,7 @@ let g:colors_name="kekkonen"
 " }}}
 
 " ## Main content ## {{{
-hi!      Normal            guifg=#FFFFFF guibg=#000000 guisp=NONE gui=NONE ctermfg=white ctermbg=NONE cterm=NONE
+hi!      Normal            guifg=#FFFFFF guibg=#000000 guisp=NONE gui=NONE ctermfg=White    ctermbg=NONE     cterm=NONE
 hi! link Constant          Normal
 hi! link Identifier        Normal
 hi! link Statement         Normal
@@ -43,26 +43,27 @@ hi! link Ignore            Normal
 " }}}
 
 " ## Low priority content ## {{{
-hi       Comment           guifg=#888888 guibg=NONE    guisp=NONE gui=NONE ctermfg=gray  ctermbg=NONE cterm=NONE
+hi       Comment           guifg=#888888 guibg=NONE    guisp=NONE gui=NONE ctermfg=Blue     ctermbg=NONE     cterm=NONE
 " }}}
 
 " ## High priority content ## {{{
 " TODO: Find good color for error
-hi       Todo              guifg=#FFBB88 guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
-hi       Error             guifg=#FFBB88 guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
-hi       IncSearch         guifg=#000000 guibg=#FFFFFF guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
-hi!      Search            guifg=#FFBB88 guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
+hi       Todo              guifg=#FFBB88 guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE     ctermbg=NONE     cterm=NONE
+hi       Error             guifg=#FFBB88 guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE     ctermbg=NONE     cterm=NONE
+hi       IncSearch         guifg=#000000 guibg=#FFFFFF guisp=NONE gui=NONE ctermfg=NONE     ctermbg=NONE     cterm=NONE
+hi!      Search            guifg=#FFBB88 guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE     ctermbg=NONE     cterm=NONE
 " }}}
 
 " ## Non-text, line numbers, etc. ## {{{
-hi       NonText           guifg=#6677bb guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
+hi       NonText           guifg=#6677bb guibg=NONE    guisp=NONE gui=NONE ctermfg=DarkBlue ctermbg=NONE     cterm=NONE
 hi! link LineNr            NonText
-hi! link StatusLine        NonText
-hi! link Folded            NonText
 hi! link Question          NonText
-hi       CursorLine        guifg=NONE    guibg=#334488 guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
-hi       Pmenu             guifg=NONE    guibg=#334488 guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
-hi       PmenuSel          guifg=NONE    guibg=#AAAAAA guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
+hi       StatusLine        guifg=NONE    guibg=#334488 guisp=NONE gui=NONE ctermfg=Black    ctermbg=Gray     cterm=NONE
+hi       StatusLineNC      guifg=NONE    guibg=#334488 guisp=NONE gui=NONE ctermfg=Black    ctermbg=DarkGray cterm=NONE
+hi       Folded            guifg=NONE    guibg=#334488 guisp=NONE gui=NONE ctermfg=Black    ctermbg=Gray     cterm=NONE
+hi       CursorLine        guifg=NONE    guibg=#334488 guisp=NONE gui=NONE ctermfg=NONE     ctermbg=DarkGray cterm=NONE
+hi       Pmenu             guifg=NONE    guibg=#334488 guisp=NONE gui=NONE ctermfg=NONE     ctermbg=DarkGray cterm=NONE
+hi       PmenuSel          guifg=NONE    guibg=#AAAAAA guisp=NONE gui=NONE ctermfg=NONE     ctermbg=DarkRed  cterm=NONE
 " }}}
 
 " # Clojure mode # {{{
@@ -81,7 +82,7 @@ hi! link clojureVariable   Normal
 " }}}
 
 " ## Punctuation and literals ## {{{
-hi       Delimiter         guifg=#FFBB88 guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE  ctermbg=NONE cterm=NONE
+hi       Delimiter         guifg=#FFBB88 guibg=NONE    guisp=NONE gui=NONE ctermfg=NONE     ctermbg=NONE     cterm=NONE
 hi! link clojureString     Delimiter
 hi! link clojureNumber     Delimiter
 hi! link clojureBoolean    Delimiter
